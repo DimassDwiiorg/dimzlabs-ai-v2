@@ -1,7 +1,7 @@
 import "./globals.css";
 import { AuthProvider } from "../context/AuthContext";
 
-const siteUrl = "https://dimzlabsai.my.id"; // GANTI dengan domain asli kamu setelah deploy
+const siteUrl = "https://dimzlabs.my.id"; // GANTI dengan domain asli kamu setelah deploy
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

@@ -2,7 +2,7 @@
 // Ganti baseUrl dengan domain asli kamu.
 
 export default function sitemap() {
-  const baseUrl = "https://dimzlabsai.my.id"; // GANTI dengan domain asli kamu
+  const baseUrl = "https://dimzlabs.my.id"; // GANTI dengan domain asli kamu
 
   return [
     {
