@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(60% 50% at 78% 10%, rgba(109, 94, 245, 0.16) 0%, rgba(8, 7, 13, 0) 60%),
+    radial-gradient(40% 40% at 10% 30%, rgba(109, 94, 245, 0.08) 0%, rgba(8, 7, 13, 0) 60%),
+    #08070d;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #242138;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #332e52;
+}
+
+/* Styling untuk balasan AI yang dirender pakai react-markdown */
+.prose-ai {
+  color: #e7e6f0;
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+.prose-ai p {
+  margin: 0 0 0.75em 0;
+}
+.prose-ai p:last-child {
+  margin-bottom: 0;
+}
+.prose-ai strong {
+  color: #fff;
+  font-weight: 600;
+}
+.prose-ai ul,
+.prose-ai ol {
+  margin: 0.4em 0 0.9em 0;
+  padding-left: 1.4em;
+}
+.prose-ai li {
+  margin: 0.25em 0;
+}
+.prose-ai ul {
+  list-style: disc;
+}
+.prose-ai ol {
+  list-style: decimal;
+}
+.prose-ai h1,
+.prose-ai h2,
+.prose-ai h3 {
+  color: #fff;
+  font-weight: 700;
+  margin: 1em 0 0.5em 0;
+}
+.prose-ai h1 {
+  font-size: 1.25rem;
+}
+.prose-ai h2 {
+  font-size: 1.125rem;
+}
+.prose-ai h3 {
+  font-size: 1rem;
+}
+.prose-ai a {
+  color: #a99bff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-ai code {
+  background: #1a1828;
+  border: 1px solid #242138;
+  padding: 0.1em 0.4em;
+  border-radius: 0.35em;
+  font-size: 0.85em;
+  color: #cabdff;
+}
+.prose-ai pre {
+  background: #0f0e18;
+  border: 1px solid #242138;
+  padding: 0.9em 1em;
+  border-radius: 0.6em;
+  overflow-x: auto;
+  margin: 0.6em 0 0.9em 0;
+}
+.prose-ai pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #e7e6f0;
+}
+.prose-ai blockquote {
+  border-left: 2px solid #6d5ef5;
+  padding-left: 0.9em;
+  color: #b3b0c6;
+  margin: 0.6em 0;
+}
+.prose-ai hr {
+  border-color: #242138;
+  margin: 1em 0;
+}
+.prose-ai table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6em 0 0.9em 0;
+  font-size: 0.85em;
+}
+.prose-ai th,
+.prose-ai td {
+  border: 1px solid #242138;
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
